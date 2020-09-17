@@ -1,0 +1,93 @@
+
+body{background:url('./static/bgi.jpg');
+justify-content: center;
+background-size: cover; 
+display: flex;
+position: relative;
+box-sizing: border-box;
+flex-direction: column;}
+
+
+button{width: 200px;
+height: 40px;}
+button a{text-decoration: none;
+font-size: 20px}
+
+.con{align-items: center;
+display: flex;
+justify-content: center;
+flex-direction: column;
+font-size: 30px;
+letter-spacing: 25px;
+border: 5px solid  black;
+border-radius: 20px;
+transform: scale(0.6,1.1);
+text-align: center;
+color: black;
+
+}
+.con button {margin-bottom:  30px;color: black;
+}
+
+.con button a{color: black;font-size: 20px;
+letter-spacing: 2px;text-transform: uppercase;}
+
+
+h2{
+font-size: 60px;
+text-align: center;}
+
+
+form{position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+align-items: center;}
+
+
+form p{font-size: 40px;
+
+}
+
+form table tr{position: relative;
+display: inline-block;
+justify-content: space-between;}
+
+form tr td{
+  font-size: 29px;padding : 20px;
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+
+
+form tr td:nth-child(1){border: 2px solid #111;
+margin: 10px}
+
+.c input{position: relative;
+display: inline-block;
+padding: 6px 20px;
+color: white;
+text-decoration: none;
+font-size: 24px;
+overflow:hidden;
+transition: 0.2s;
+padding-bottom: 30px;
+text-align: center;
+color: black;
+transition: 0.5s
+
+}
+
+.c input:hover{color: #255784;
+background: skyblue;
+color: black;
+border-radius: 18px;
+box-shadow: 70px  grey;
+transform: translate(5px,6px);
+}
+
+
+form tr td input{width: 50px;
+height: 50px}
